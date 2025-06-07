@@ -60,7 +60,7 @@ set(ax,'YDir','reverse');                     % best at the top
 ylim(ax,[0.5 10.5]);                          % room for 10 bars
 
 vid = VideoWriter("elo_2024_animation.mp4","MPEG-4");
-vid.FrameRate = 6;
+vid.FrameRate = 4;
 open(vid);
 
 %% 4. Draw frames  (start with snapshot #2)
